@@ -1,5 +1,4 @@
-// const SMARTAPP_HOST = "https://atomlipetsk.github.io";
-const SMARTAPP_HOST = "http://localhost:8081";
+const SMARTAPP_HOST = "https://fiori-proxy-web.herokuapp.com";
 
 function SmartAppInterceptor({ iframeSelector, smartAppUrl }) {
   this._iframe = document.querySelector(iframeSelector);
